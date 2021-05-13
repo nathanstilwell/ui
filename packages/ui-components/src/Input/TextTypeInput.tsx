@@ -68,7 +68,6 @@ export const BaseTextInput: React.FC<InternalTextProps> = props => {
       "crl-input--suffix": suffix,
       invalid: error || invalid,
     }),
-    name: name,
     ["aria-label"]: ariaLabel,
     ["aria-invalid"]: !!error || invalid,
     ["aria-required"]: required,
@@ -83,7 +82,6 @@ export const BaseTextInput: React.FC<InternalTextProps> = props => {
     <>
       {!isEmpty(label) && (
         <label
-          aria-label={name}
           className={classNames({
             required: required,
           })}
@@ -130,7 +128,6 @@ export const MultilineTextInput = (props: MultilineTextInputProps) => {
       "crl-input--suffix": props.suffix,
       invalid: props.error || props.invalid,
     }),
-    name: name,
     ["aria-label"]: props.ariaLabel,
     ["aria-invalid"]: !!props.error || props.invalid,
     ["aria-required"]: props.required,

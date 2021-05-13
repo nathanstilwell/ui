@@ -19389,12 +19389,12 @@ typescript-tuple@^2.2.1:
   dependencies:
     typescript-compare "^0.0.2"
 
-typescript@>=2.8.0:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
-  integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
+typescript@4.2.4, typescript@>=2.8.0:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
+  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
 
-typescript@^3.7.5, typescript@^3.8.3, typescript@^3.9.5:
+typescript@^3.7.5, typescript@^3.9.5:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
@@ -19631,6 +19631,11 @@ update-notifier@^4.1.0:
     pupa "^2.0.1"
     semver-diff "^3.1.1"
     xdg-basedir "^4.0.0"
+
+uplot@^1.6.9:
+  version "1.6.9"
+  resolved "https://registry.yarnpkg.com/uplot/-/uplot-1.6.9.tgz#0f10e10b5882cb80eb58d63f870b8a77e8d95962"
+  integrity sha512-uWIegRdqbqJwnB5SDBt29lyJIgHLIqt5AnwlLGxuA3gKKXGtY7d68RR6oDF2u5pK9jpIb1djrQnm5n0BiAnUgA==
 
 uri-js@^4.2.2:
   version "4.2.2"
